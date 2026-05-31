@@ -1,25 +1,21 @@
-# SENAI Jaú - Portal de Tecnologia e Automação Industrial
-
-Projeto desenvolvido com foco em:
-
-- Desenvolvimento Web
-- Automação Industrial
-- Análise de Dados
-- SQL Industrial
+# Atividade 02
 
 ---
 
 # 🧰 Tecnologias Utilizadas
 
 ## 🌐 Frontend
+
 - HTML5
 - Tailwind CSS
 
 ## 🐍 Backend / Dados
+
 - Python 3
 - Pandas
 
 ## 🗄️ Banco de Dados
+
 - SQL
 
 ---
@@ -27,15 +23,15 @@ Projeto desenvolvido com foco em:
 # 📁 Estrutura do Projeto
 
 ```bash
-CursoAI/
+Atividade02/
 │
-├── index.html
-├── relatorio.py
 ├── consultas.sql
+├── index.html
 ├── producao_textil.csv
+├── README.md
 ├── relatorio_maquinas.csv
 ├── relatorio_turnos.csv
-└── README.md
+└── relatorio.py
 ```
 
 ---
@@ -160,6 +156,7 @@ Tear_02,Tarde,980,2026-05-25
 # 📤 Saídas do Sistema
 
 ## 🖥️ Terminal
+
 Exibe relatórios de produção em tempo real.
 
 ## 📁 Arquivos gerados
