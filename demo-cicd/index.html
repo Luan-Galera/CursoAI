@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linha 04 — Fábrica Modelo | Painel de Produção</title>
+  <meta name="description" content="Painel da Linha 04 da Fábrica Modelo, publicado automaticamente pelo GitHub Actions." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topo">
+    <div class="wrap topo__linha">
+      <span class="tag">Fábrica Modelo</span>
+      <nav>
+        <a href="#indicadores">Indicadores</a>
+        <a href="#publicacao">Publicação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ---------- HERO ---------- -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Setor de Usinagem · Turno A</p>
+        <h1>Linha&nbsp;04<span class="pisca" aria-hidden="true"></span></h1>
+        <p class="hero__texto">
+          Painel da célula de usinagem. Esta página é publicada automaticamente
+          a cada alteração enviada ao repositório.
+        </p>
+
+        <div class="esteira" role="img" aria-label="Esteira de produção com três estações: carga, usinagem e inspeção">
+          <div class="esteira__faixa">
+            <div class="esteira__pecas">
+              <span class="peca"></span><span class="peca"></span><span class="peca"></span>
+              <span class="peca"></span><span class="peca"></span><span class="peca"></span>
+              <span class="peca"></span><span class="peca"></span><span class="peca"></span>
+            </div>
+          </div>
+          <ol class="estacoes">
+            <li><b>01</b> Carga</li>
+            <li><b>02</b> Usinagem</li>
+            <li><b>03</b> Inspeção</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- INDICADORES ---------- -->
+    <section id="indicadores" class="secao">
+      <div class="wrap">
+        <h2>Indicadores do turno</h2>
+        <div class="cards">
+          <article class="card">
+            <p class="card__valor" data-contador="87">0</p><span class="card__unidade">%</span>
+            <h3>OEE</h3>
+            <p class="card__nota">Eficiência global do equipamento</p>
+          </article>
+          <article class="card">
+            <p class="card__valor" data-contador="412">0</p><span class="card__unidade">pç/h</span>
+            <h3>Cadência</h3>
+            <p class="card__nota">Média das últimas 8 horas</p>
+          </article>
+          <article class="card">
+            <p class="card__valor" data-contador="3">0</p><span class="card__unidade">paradas</span>
+            <h3>Interrupções</h3>
+            <p class="card__nota">Setup e troca de ferramenta</p>
+          </article>
+          <article class="card card--alerta">
+            <p class="card__valor" data-contador="2">0</p><span class="card__unidade">%</span>
+            <h3>Refugo</h3>
+            <p class="card__nota">Meta do turno: abaixo de 3%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- SELO DE PUBLICAÇÃO ---------- -->
+    <section id="publicacao" class="secao secao--escura">
+      <div class="wrap">
+        <h2>Última publicação</h2>
+        <p class="secao__intro">
+          Os valores abaixo são preenchidos pelo GitHub Actions no momento do build.
+          Se eles mudaram, o pipeline rodou de verdade.
+        </p>
+        <dl class="selo">
+          <div><dt>Commit</dt><dd class="mono" data-build>{{COMMIT}}</dd></div>
+          <div><dt>Branch</dt><dd class="mono" data-build>{{BRANCH}}</dd></div>
+          <div><dt>Execução</dt><dd class="mono" data-build>#{{RUN}}</dd></div>
+          <div><dt>Publicado em</dt><dd class="mono" data-build>{{DATA}}</dd></div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <p>Fábrica Modelo · Linha 04 — material didático do Programa de IA Generativa.</p>
+      <p class="mono">Publicado com GitHub Actions e GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
